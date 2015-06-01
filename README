@@ -1,0 +1,20 @@
+
+This is an umbrella repository used to checkout and build the Haskell Ethereum client.  You will need google's "git-repo" tools to do the build, and should not have to directly clone this repository using git by hand.
+
+Instructions for building ethereumH:
+====================================
+
+1. Install the google git-repo tools at https://code.google.com/p/git-repo/.  After the installation, you will have a command line tool called "repo".
+
+2. (OPTIONAL) The "repo" command uses gpg to do an integrity check....  You might want to install gpg to surpress warnings whenever repo is run.  You can do this on an Ubuntu box using "sudo apt-get isntall gpgv2"
+
+3. Run the following commands
+
+   > repo init -u http://github.com/jamshidh/ethereumH
+   > repo sync
+   > ./build
+
+4. Important!  You "cd" into any subdir-repository, and use git to update files, however, by default, repo doesn't seem to choose a branch (in other words, each repository is a detached head, based off of the remote master).  You will need to run "git checkout master" (or whatever branch you are working on) before you can commit and push anything.  
+
+Note- I still consider this an experiment....  git-repo tools may or may not work for us.
+
