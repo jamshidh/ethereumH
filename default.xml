@@ -2,7 +2,7 @@
 
 <manifest>
   <!--remote name="github" fetch="http://github.com/jamshidh/"/-->
-  <remote name="github" fetch=".."/>
+  <remote name="github" fetch="."/>
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
   <project name="ethereum-rlp" remote="github" path="ethereum-rlp"/>
   <project name="ethereum-util" remote="github" path="ethereum-util"/>
