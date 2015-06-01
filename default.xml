@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="github" fetch="http://github.com/jamshidh/"/>
+  <default revision="refs/heads/master" remote="github" sync-j="4"/>
+  <project name="ethereum-rlp" remote="github" path="ethereum-rlp"/>
+  <project name="ethereum-util" remote="github" path="ethereum-util"/>
+  <project name="ethereum-merkle-patricia-db" remote="github" path="ethereum-merkle-patricia-db"/>
+  <project name="ethereum-encryption" remote="github" path="ethereum-encryption"/>
+  <project name="ethereum-data-sql" remote="github" path="ethereum-data-sql"/>
+  <project name="ethereum-client-haskell" remote="github" path="ethereum-client-haskell"/>
+  <project name="ethereum-build" remote="github" path="."/>
+</manifest>
