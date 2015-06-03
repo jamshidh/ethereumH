@@ -9,6 +9,7 @@
   <project name="ethereum-merkle-patricia-db" remote="github" path="ethereum-merkle-patricia-db"/>
   <project name="ethereum-encryption" remote="github" path="ethereum-encryption"/>
   <project name="ethereum-data-sql" remote="github" path="ethereum-data-sql"/>
+  <project name="hminer" remote="kierengithub" path="hminer"/>
   <project name="ethereum-client-haskell" remote="github" path="ethereum-client-haskell"/>
   <project name="p2p-server" remote="kierengithub" path="p2p-server"/>
   <project name="hserver-eth" remote="kierengithub" path="hserver-eth"/>
