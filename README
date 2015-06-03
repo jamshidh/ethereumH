@@ -6,7 +6,7 @@ Instructions for building ethereumH:
 
 1. Install the google git-repo tools at https://code.google.com/p/git-repo/.  After the installation, you will have a command line tool called "repo".
 
-2. (OPTIONAL) The "repo" command uses gpg to do an integrity check....  You might want to install gpg to surpress warnings whenever repo is run.  You can do this on an Ubuntu box using "sudo apt-get isntall gpgv2"
+2. (OPTIONAL) The "repo" command uses gpg to do an integrity check....  You might want to install gpg to surpress warnings whenever repo is run.  You can do this on an Ubuntu box using "sudo apt-get install gpgv2"
 
 3. Run the following commands
 
