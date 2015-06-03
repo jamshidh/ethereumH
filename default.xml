@@ -2,6 +2,7 @@
 
 <manifest>
   <remote name="github" fetch="http://github.com/jamshidh/"/>
+  <remote name="kierengithub" fetch="http://github.com/kjameslubin/"/>
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
   <project name="ethereum-rlp" remote="github" path="ethereum-rlp"/>
   <project name="ethereum-util" remote="github" path="ethereum-util"/>
@@ -9,5 +10,8 @@
   <project name="ethereum-encryption" remote="github" path="ethereum-encryption"/>
   <project name="ethereum-data-sql" remote="github" path="ethereum-data-sql"/>
   <project name="ethereum-client-haskell" remote="github" path="ethereum-client-haskell"/>
+  <project name="p2p-server" remote="kierengithub" path="p2p-server"/>
+  <project name="hserver-eth" remote="kierengithub" path="hserver-eth"/>
   <project name="ethereum-build" remote="github" path="."/>
 </manifest>
+
