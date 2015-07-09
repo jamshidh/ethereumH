@@ -3,6 +3,7 @@
 <manifest>
   <remote name="github" fetch="http://github.com/jamshidh/"/>
   <remote name="kierengithub" fetch="http://github.com/kjameslubin/"/>
+  <remote name="blockappsgithub" fetch="https://github.com/blockapps/"/>
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
   <project name="ethereum-rlp" remote="github" path="ethereum-rlp"/>
   <project name="ethereum-util" remote="github" path="ethereum-util"/>
@@ -14,5 +15,6 @@
   <project name="p2p-server" remote="kierengithub" path="p2p-server"/>
   <project name="hserver-eth" remote="kierengithub" path="hserver-eth"/>
   <project name="ethereum-build" remote="github" path="."/>
+  <project name="solidity-abi" remote="blockappsgithub" path="solidity-abi"/>
 </manifest>
 
