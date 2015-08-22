@@ -17,5 +17,6 @@
   <project name="hserver-eth" remote="kierengithub" path="hserver-eth"/>
   <project name="ethereum-build" remote="github" path="."/>
   <project name="solidity-abi" remote="blockappsgithub" path="solidity-abi"/>
+  <project name="ethereum-query" remote="github" path="ethereum-query"/>
 </manifest>
 
