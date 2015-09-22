@@ -10,9 +10,9 @@ Instructions for building ethereumH:
 
 3. Run the following commands
 
-   > repo init -u http://github.com/jamshidh/ethereumH
+   > repo init -u http://github.com/jamshidh/ethereumH -b develop
    > repo sync
-   > ./build
+   > stack install
 
 4. Important!  You "cd" into any subdir-repository, and use git to update files, however, by default, repo doesn't seem to choose a branch (in other words, each repository is a detached head, based off of the remote master).  You will need to run "git checkout master" (or whatever branch you are working on) before you can commit and push anything.  
 
