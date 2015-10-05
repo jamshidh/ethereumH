@@ -19,6 +19,6 @@
   <project name="ethereum-build" remote="blockappsgithub" path="."/>
   <project name="solidity-abi" remote="blockappsgithub" path="solidity-abi"/>
   <project name="ethereum-query" remote="github" path="ethereum-query"/>
-  <project name="yesod-raml" remote="kierengithub" path="yesod-raml/">
+  <project name="yesod-raml" remote="kierengithub" path="yesod-raml"/>
 </manifest>
 
