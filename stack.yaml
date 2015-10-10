@@ -1,0 +1,31 @@
+flags: {}
+packages:
+- ethereum-rlp/
+- ethereum-conf/
+- hminer/
+- ethereum-merkle-patricia-db/
+- ethereum-client-haskell/
+- solidity-abi/
+- ethereum-data-sql/
+- ethereum-encryption/
+- ethereum-vm/
+- ethereum-util/
+- hserver-eth/
+- p2p-server/
+- ethereum-query/
+- location:
+    git: https://github.com/haskoin/haskoin
+    commit: b71bcfa4701e129b69776e6951fe0bb7c8b26ea3
+extra-deps: 
+- Crypto-4.2.5.1
+- SHA2-0.2.5
+- leveldb-haskell-0.6.3
+- AES-0.2.9
+- json-rpc-0.2.1.6
+- nibblestring-0.0.3
+- pbkdf-1.1.1.1
+- directory-1.2.3.1
+- arithmoi-0.4.1.3
+- murmur3-1.0.0
+- yesod-raml-0.1.4
+resolver: lts-3.4
