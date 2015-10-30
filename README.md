@@ -1,22 +1,17 @@
 
-This is an umbrella repository used to checkout and build the Haskell Ethereum client.  You will need google's "git-repo" tools to do the build, and should not have to directly clone this repository using git by hand.
+Note- If you cloned this repository using git, it will be missing important components.  You need to clone this repository using "mgit" (read below for information)
 
-Instructions for building ethereumH:
+Instructions for building Strato:
 ====================================
 
-1. Install the google git-repo tools at https://code.google.com/p/git-repo/.  After the installation, you will have a command line tool called "repo".
+1. Install prerequisites:
+   A. Install stack (see https://github.com/commercialhaskell/stack)
+   B. mgit: tool at http://github.com/blockapps/mgit.  After the installation, you will have a command line tool called "repo".
+   C. Postgresql
+   D. LevelDB
 
-2. (OPTIONAL) The "repo" command uses gpg to do an integrity check....  You might want to install gpg to surpress warnings whenever repo is run.  You can do this on an Ubuntu box using "sudo apt-get install gpgv2"
+2. Run the following commands
 
-3. Run the following commands
-
-   > repo init -u http://github.com/jamshidh/ethereumH -b develop
-   
-   > repo sync
-   
+   > mgit clone http://github.com/blockapps/strato
+   > cd strato
    > stack install
-
-4. Important!  You "cd" into any subdir-repository, and use git to update files, however, by default, repo doesn't seem to choose a branch (in other words, each repository is a detached head, based off of the remote master).  You will need to run "git checkout master" (or whatever branch you are working on) before you can commit and push anything.  
-
-Note- I still consider this an experiment....  git-repo tools may or may not work for us.
-
