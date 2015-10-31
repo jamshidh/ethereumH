@@ -1,18 +1,18 @@
 flags: {}
 packages:
 - ethereum-rlp/
-- ethereum-conf/
-- hminer/
-- ethereum-merkle-patricia-db/
-- ethereum-client-haskell/
+- strato-conf/
+- miner-ethash/
+- merkle-patricia-db/
+- strato-p2p-client/
 - solidity-abi/
-- ethereum-data-sql/
+- blockapps-data/
 - ethereum-encryption/
 - ethereum-vm/
 - ethereum-util/
-- hserver-eth/
-- p2p-server/
-- ethereum-query/
+- strato-api/
+- strato-p2p-server/
+- blockapps-tools/
 - location:
     git: https://github.com/haskoin/haskoin
     commit: b71bcfa4701e129b69776e6951fe0bb7c8b26ea3
