@@ -9,7 +9,7 @@ packages:
 - blockapps-data/
 - ethereum-encryption/
 - ethereum-vm/
-- ethereum-util/
+- blockapps-util/
 - strato-api/
 - strato-p2p-server/
 - blockapps-tools/
