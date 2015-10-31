@@ -15,6 +15,6 @@ Instructions for building Strato:
 
 2. Run the following commands
 
-   > mgit clone http://github.com/blockapps/strato
-   > cd strato
-   > stack install
+    > mgit clone http://github.com/blockapps/strato
+    > cd strato
+    > stack install
