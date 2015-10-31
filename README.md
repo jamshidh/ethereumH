@@ -8,10 +8,10 @@ Instructions for building Strato:
 ====================================
 
 1. Install prerequisites:
-  A. Install stack (see https://github.com/commercialhaskell/stack)
-  B. mgit: tool at http://github.com/blockapps/mgit.  After the installation, you will have a command line tool called "repo".
-  C. Postgresql
-  D. LevelDB
+  1. Install stack (see https://github.com/commercialhaskell/stack)
+  2. mgit: tool at http://github.com/blockapps/mgit.  After the installation, you will have a command line tool called "repo".
+  3. Postgresql
+  4. LevelDB
 
 2. Run the following commands
 
