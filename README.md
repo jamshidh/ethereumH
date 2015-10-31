@@ -1,3 +1,6 @@
+#ethereumH
+
+[![BlockApps logo](http://blockapps.net/img/logo_cropped.png)](http://blockapps.net)
 
 Note- If you cloned this repository using git, it will be missing important components.  You need to clone this repository using "mgit" (read below for information)
 
