@@ -4,13 +4,13 @@ http://github.com/blockapps/ethereum-util
 http://github.com/blockapps/merkle-patricia-db
 http://github.com/blockapps/ethereum-encryption
 http://github.com/blockapps/blockapps-data
-http://github.com/kjameslubin/miner-ethash
+http://github.com/blockapps/miner-ethash
 http://github.com/blockapps/strato-p2p-client
 http://github.com/blockapps/ethereum-vm
-http://github.com/kjameslubin/strato-p2p-server
-http://github.com/kjameslubin/strato-api
+http://github.com/blockapps/strato-p2p-server
+http://github.com/blockapps/strato-api
 http://github.com/blockapps/strato-scripts
 http://github.com/blockapps/solidity-abi
-http://github.com/jamshidh/blockapps-tools
+http://github.com/blockapps/blockapps-tools
 
 
