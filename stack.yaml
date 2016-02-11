@@ -34,3 +34,7 @@ extra-deps:
 - yesod-raml-0.1.4
 - normaldistribution-1.1.0.3
 resolver: lts-3.4
+extra-include-dirs:
+- /usr/local/include
+extra-lib-dirs:
+- /usr/local/lib
