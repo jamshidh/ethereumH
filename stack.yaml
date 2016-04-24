@@ -39,5 +39,7 @@ extra-deps:
 resolver: lts-3.4
 extra-include-dirs:
 - /usr/local/include
+- /usr/local/opt/readline/include
 extra-lib-dirs:
 - /usr/local/lib
+- /usr/local/opt/readline/lib
