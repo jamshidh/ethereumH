@@ -16,6 +16,7 @@ packages:
 - blockapps-tools/
 - strato-quarry/
 - strato-adit/
+- strato-index/
 - location:
     git: https://github.com/haskoin/haskoin
     commit: b71bcfa4701e129b69776e6951fe0bb7c8b26ea3
@@ -33,6 +34,7 @@ extra-deps:
 - murmur3-1.0.0
 - yesod-raml-0.1.4
 - normaldistribution-1.1.0.3
+- milena-0.5.0.0
 resolver: lts-3.4
 extra-include-dirs:
 - /usr/local/include
