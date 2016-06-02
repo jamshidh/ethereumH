@@ -44,5 +44,3 @@ extra-include-dirs:
 extra-lib-dirs:
 - /usr/local/lib
 
-ghc-options:
-    "*": -Wall -Werror
