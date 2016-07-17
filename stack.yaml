@@ -45,3 +45,5 @@ extra-include-dirs:
 extra-lib-dirs:
 - /usr/local/lib
 
+ghc-options:
+  strato-init: -Wall -Werror
