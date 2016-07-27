@@ -47,3 +47,4 @@ extra-lib-dirs:
 
 ghc-options:
   strato-init: -Wall -Werror
+  merkle-patricia-db: -Wall -Werror
