@@ -1,0 +1,4 @@
+
+1. Slowly adding modules to section in stack.yaml that makes them compile pedantic
+
+
