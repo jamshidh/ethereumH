@@ -48,3 +48,5 @@ extra-lib-dirs:
 ghc-options:
   strato-init: -Wall -Werror
   merkle-patricia-db: -Wall -Werror
+  strato-p2p-client: -Wall -Werror
+  strato-p2p-server: -Wall -Werror
