@@ -1,4 +1,6 @@
 
 1. Slowly adding modules to section in stack.yaml that makes them compile pedantic
 
+2. bug fixes- distance function in findnodes was broken.
 
+3. Removing a bunch of duplicate code (UDP.hs in both ethereum-encryption and ethereum-discovery, postgres trigger code in both server, client).
