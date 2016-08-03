@@ -46,7 +46,8 @@ extra-lib-dirs:
 - /usr/local/lib
 
 ghc-options:
-  strato-init: -Wall -Werror
+  ethereum-discovery: -Wall -Werror
   merkle-patricia-db: -Wall -Werror
+  strato-init: -Wall -Werror
   strato-p2p-client: -Wall -Werror
   strato-p2p-server: -Wall -Werror
