@@ -10,3 +10,5 @@
 5. Moved PPeer definition and ownership to ethereum-discovery.
 
 6. Centralized point/byte conversion functions in ethereum-encryption.
+
+7. Began the splitting of strato-setup into individual components managed separately.  So far, I've only separated out ethereum-discovery's setup.
