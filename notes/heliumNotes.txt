@@ -4,3 +4,8 @@
 2. bug fixes- distance function in findnodes was broken.
 
 3. Removing a bunch of duplicate code (UDP.hs in both ethereum-encryption and ethereum-discovery, postgres trigger code in both server, client).
+
+4. Wrote code to make RLPx EIP8 compliant (needed in order to have communication work between Strato and geth).
+
+5. Moved PPeer definition and ownership to ethereum-discovery.
+
