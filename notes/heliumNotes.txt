@@ -9,3 +9,4 @@
 
 5. Moved PPeer definition and ownership to ethereum-discovery.
 
+6. Centralized point/byte conversion functions in ethereum-encryption.
