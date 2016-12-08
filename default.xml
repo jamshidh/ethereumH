@@ -5,17 +5,18 @@
   <remote name="kierengithub" fetch="http://github.com/kjameslubin/"/>
   <remote name="blockappsgithub" fetch="https://github.com/blockapps/"/>
   <default revision="refs/heads/develop" remote="github" sync-j="4"/>
-  <project name="ethereum-rlp" remote="github" path="ethereum-rlp"/>
-  <project name="ethereum-util" remote="github" path="ethereum-util"/>
-  <project name="ethereum-merkle-patricia-db" remote="github" path="ethereum-merkle-patricia-db"/>
-  <project name="ethereum-encryption" remote="github" path="ethereum-encryption"/>
-  <project name="ethereum-data-sql" remote="github" path="ethereum-data-sql"/>
+  <project name="ethereum-rlp" remote="blockappsgithub" path="ethereum-rlp"/>
+  <project name="ethereum-conf" remote="blockappsgithub" path="ethereum-conf"/>
+  <project name="ethereum-util" remote="blockappsgithub" path="ethereum-util"/>
+  <project name="ethereum-merkle-patricia-db" remote="blockappsgithub" path="ethereum-merkle-patricia-db"/>
+  <project name="ethereum-encryption" remote="blockappsgithub" path="ethereum-encryption"/>
+  <project name="ethereum-data-sql" remote="blockappsgithub" path="ethereum-data-sql"/>
   <project name="hminer" remote="kierengithub" path="hminer"/>
-  <project name="ethereum-client-haskell" remote="github" path="ethereum-client-haskell"/>
-  <project name="ethereum-vm" remote="github" path="ethereum-vm"/>
+  <project name="ethereum-client-haskell" remote="blockappsgithub" path="ethereum-client-haskell"/>
+  <project name="ethereum-vm" remote="blockappsgithub" path="ethereum-vm"/>
   <project name="p2p-server" remote="kierengithub" path="p2p-server"/>
   <project name="hserver-eth" remote="kierengithub" path="hserver-eth"/>
-  <project name="ethereum-build" remote="github" path="."/>
+  <project name="ethereum-build" remote="blockappsgithub" path="."/>
   <project name="solidity-abi" remote="blockappsgithub" path="solidity-abi"/>
   <project name="ethereum-query" remote="github" path="ethereum-query"/>
 </manifest>
